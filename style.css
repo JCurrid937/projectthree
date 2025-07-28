@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: white;
+  color: black;
+  line-height: 1.6;
+}
+
+
+.banner {
+  background-color: rgb(51, 7, 51);
+  padding: 1rem 0;
+}
+
+.navbar ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  gap: 1.5rem;
+}
+
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+
+.image-section {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.image-section img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem 2rem;
+  border-radius: 8px;
+   max-width: 90%;
+   width: fit fit-content;
+  font-size: 1.2rem;
+  color:#f0f0f0;
+}
+
+.content-grid {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.grid-item {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.side-by-side {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start; /* Align top edges */
+  flex-wrap: wrap;
+}
+
+.text-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+/* NEW: Limit image height to match text height */
+.image-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  max-width: 400px;
+  overflow: hidden;
+}
+
+.image-wrapper img {
+  max-height: 100%;
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+}
+photo-stack {
+  float: left;
+  margin-right: 20px;
+}
+
+.photo-stack img {
+  display: block;
+  width: 300px;      /* Adjust as needed */
+  height: auto;
+  margin-bottom: 20px;
+}
