@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Homepage</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="banner">
+    <nav class="navbar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Case Study Background</a></li>
+        <li><a href="#">Inspiration</a></li>
+         <li><a href="#">History</a></li>
+          <li><a href="#">Cowboy Culture Fault Lines</a></li>
+           <li><a href="#">Conclusion</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="image-section">
+    <img src="myimages/Sunset Cowboy.jpg" alt="Sunset Cowboy"/>
+    <div class="image-text">Inclusitivity.</div>
+  </section>
+
+  <section class="content-grid">
+    <div class="grid-item">
+      <div class="side-by-side">
+      <div class="text-content">
+      <h2>Who Gets to be a Cowboy?</h2>
+      <p><br>Today, gatekeeping in the Western world is very real, and it doesn’t just impact newcomers to the lifestyle—it affects women, people of color, LGBTQ+ folks, and even those who grew up steeped in the culture but don’t fit the traditional mold. </p>
+      <h3><br>Ja’Dayia Kursh: Breaking Barriers in the Arena</h3>
+      <p>Ja’Dayia Kursh knows a thing or two about pushing through barriers. Born and raised in Fort Smith, Arkansas, Kursh became the first Black Rodeo Queen in the state at just 18 years old. But getting there wasn’t easy.</p>
+      <p><br>In a 2023 appearance on The Talk, Kursh opened up about the racism and resistance she faced from her own teammates on a local equestrian drill team. She admitted that she nearly quit after being targeted by teammates and their parents. But after a heartfelt talk with her coach, she chose to stay—on the condition that she could read a letter aloud to the team and their families. In it, she bravely confronted the racism she had endured.</p>
+      <h3><br>Courtenay DeHoff: Cowboy Enough?</h3>
+      <p>And it’s not just people of color who face gatekeeping in cowboy spaces. Even being white doesn’t guarantee acceptance if you don’t fit the traditional mold. Just ask Courtenay DeHoff—a Kansas native who grew up showing cattle and riding horses.
+
+      <br>Despite her deep roots in ag life, DeHoff was told she wasn’t “cowboy enough.” That criticism led her to launch #FancyLadyCowgirl, a platform inviting everyone—no matter their background—into the lifestyle she loves.</p>
+    <h3><br>Kameron Dunn: Loving the Culture That Didn’t Always Love Him Back</h3>
+    <p>Writer and doctoral student Kameron Dunn also shared his experience navigating cowboy culture as a gay man from rural Oklahoma. In his Texas Highways essay, he explores the tension between his deep love for honky-tonk life and the painful memories of growing up in a place where being openly gay wasn’t safe.
+
+    <br>After moving to Austin, he tried to shed his rural identity. But he kept being drawn back to places like the Broken Spoke, a legendary dance hall that manages to blend tradition with acceptance</p>
+    </div>
+
+   
+ 
+</section>
+  </section>
+</body>
+</html>
