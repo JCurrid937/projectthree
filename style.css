@@ -109,9 +109,9 @@ photo-stack {
   width: 300px;      /* Adjust as needed */
   height: auto;
   margin-bottom: 20px;
+}.underlined-heading {
+  display: inline-block; /* Makes border hug the text */
+  border-bottom: 2px solid #333; /* Adjust thickness & color */
+  padding-bottom: 4px; /* Optional spacing between text and line */
 }
-.horizontal-line {
-  border-top: 2px solid #000; /* black line */
-  width: 100%;
-  margin: 20px 0;
-}
+
